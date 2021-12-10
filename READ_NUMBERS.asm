@@ -1,5 +1,6 @@
 ; == READ_NUMBERS ==
 ; Reads array elements of two digits from the user
+; Assumes that elements are stored in array ARRAY predefined and has size of ARRAY_SIZE (less than 100)
 READ_NUMBERS PROC
     ; Read the array size
                   PRINT_STR ENDL
